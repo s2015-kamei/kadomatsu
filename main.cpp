@@ -27,22 +27,30 @@ int main(int argc, char *argv[])
     
     if(length >= 0)
     {
-        cout << "　 ∩　　     新年"     << endl;
-        cout << " ∩ Ｕ∩　　あけまして"   << endl; 
-        cout << " ＵＨＵ　 おめでとう"   << endl;
-        cout << " Ｈ||Ｕ　 ございます"   << endl;
-        cout << " ||ＨＨ"              << endl;
+        cout << "     A       新年"     << endl;
+        cout << "   A|V|A   あけまして"   << endl; 
+        cout << "  |V|-|V|  おめでとう"   << endl;
+        cout << "  |-| |-|  ございます"   << endl;
+        cout << "  | |-| |"              << endl;
         if(argc > 1)
             cout << nutrient_injection(length);
     }
     else
     {
-        cout << " ぬるぽ" << endl;
+        cout << "     A  " << endl;
+        cout << "    |V|    " << endl;
+        cout << "    | |    " << endl;
+        cout << "    |N|    " << endl;
+        cout << "    |U|    " << endl;
+        cout << "    |L|    " << endl;
+        cout << "    |L|    " << endl;
+        cout << "    |P|    " << endl;
+        cout << "    |O|    Ga! >" << endl;
     }
-    cout << " (※※※※)"            << endl;
-    cout << " (∵∴∵∴)"            << endl;
-    cout << "〔≡≡≡≡〕  2023年元旦" << endl;
-    cout << "／≠≠≠≠ ＼"           << endl;
+    cout << " (※※※※※※※)"            << endl;
+    cout << " (∵∴∵∴∵∴∵)"            << endl;
+    cout << " [≡≡≡≡≡≡≡] 2023年元旦" << endl;
+    cout << " /≠≠≠≠≠≠≠\\"           << endl;
     cout << endl;
     return 0;
 }
@@ -55,9 +63,9 @@ string nutrient_injection(int length)
     for(int i = 0; i < length; i++)
     {
         if(i % 2 == 0)
-            result += " Ｈ||||\n";
+            result += "  |-| |-|  \n";
         else
-            result += " ||ＨＨ\n";
+            result += "  | |-| |\n";
     }
     return result;
 }
