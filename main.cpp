@@ -47,10 +47,10 @@ int main(int argc, char *argv[])
         cout << "    |P|    " << endl;
         cout << "    |O|    Ga! >" << endl;
     }
-    cout << " (※※※※※※※)"            << endl;
-    cout << " (∵∴∵∴∵∴∵)"            << endl;
-    cout << " [≡≡≡≡≡≡≡] 2023年元旦" << endl;
-    cout << " /≠≠≠≠≠≠≠\\"           << endl;
+    cout << " (WWWWWWW)"            << endl;
+    cout << " (¥¥¥¥¥¥¥)"            << endl;
+    cout << " [=======] 2023年元旦" << endl;
+    cout << " /#######\\"           << endl;
     cout << endl;
     return 0;
 }
